@@ -1,0 +1,69 @@
+{
+  "title": "OwnRules",
+  "rules": [{
+      "description": "OpenBracket",
+      "manipulators": [{
+        "type": "basic",
+        "from": {
+          "key_code": "f13"
+        },
+        "to": [{
+          "key_code": "5",
+          "modifiers": ["right_alt"]
+        }]
+      }]
+    },
+    {
+      "description": "ClosedBracket",
+      "manipulators": [{
+        "type": "basic",
+        "from": {
+          "key_code": "f14"
+        },
+        "to": [{
+          "key_code": "6",
+          "modifiers": ["right_alt"]
+        }]
+      }]
+    },
+    {
+      "description": "OpenCurlyBracket",
+      "manipulators": [{
+        "type": "basic",
+        "from": {
+          "key_code": "f13"
+        },
+        "to": [{
+          "key_code": "8",
+          "modifiers": ["right_alt"]
+        }]
+      }]
+    },
+    {
+      "description": "CloseCurlyBracket",
+      "manipulators": [{
+        "type": "basic",
+        "from": {
+          "key_code": "f13"
+        },
+        "to": [{
+          "key_code": "9",
+          "modifiers": ["right_alt"]
+        }]
+      }]
+    },
+    {
+      "description": "VerticalBar",
+      "manipulators": [{
+        "type": "basic",
+        "from": {
+          "key_code": "f13"
+        },
+        "to": [{
+          "key_code": "7",
+          "modifiers": ["right_alt"]
+        }]
+      }]
+    }
+  ]
+}
